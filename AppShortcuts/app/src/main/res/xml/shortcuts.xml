@@ -1,0 +1,23 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_shortcut"
+        android:shortcutShortLabel="@string/activity_home_name">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.learn2crack.appshortcuts"
+            android:targetClass="com.learn2crack.appshortcuts.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_shortcut"
+        android:shortcutShortLabel="@string/activity_profile_name">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.learn2crack.appshortcuts"
+            android:targetClass="com.learn2crack.appshortcuts.ProfileActivity" />
+    </shortcut>
+</shortcuts>
+

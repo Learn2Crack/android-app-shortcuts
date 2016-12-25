@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Shortcuts</string>
+    <string name="activity_home_name">Home</string>
+    <string name="activity_profile_name">Profile</string>
+</resources>
